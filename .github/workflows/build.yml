@@ -27,7 +27,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v4
       with:
-        images: ghcr.io/alessandrominoccheri/test
+        images: ghcr.io/AlessandroMinoccheri/test
         tags: |
           # minimal
           type=semver,pattern={{version}}
